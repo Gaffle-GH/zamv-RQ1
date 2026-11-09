@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+logs/
+# Large; share exports/ instead. Keep runs/ locally as the source of truth.
+runs/
+.env

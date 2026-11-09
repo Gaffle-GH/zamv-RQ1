@@ -1,0 +1,13 @@
+[project]
+name = "zamv-rq1"
+version = "0.1.0"
+description = "RQ1 of 'Persuaded, Not Admitted': bug-injected dataset, peer attacks, verifier harness, verdict exports"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[project.optional-dependencies]
+mlx = ["mlx-lm"]   # local Apple-silicon pilot runs
+vllm = ["vllm"]    # A100 runs
+
+[tool.uv]
+package = false
